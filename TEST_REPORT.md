@@ -89,3 +89,25 @@ npm run build
 Kết quả:
 Build thành công
 Kết luận: project có thể build production ở môi trường local.
+
+## 10. Kiểm thử sau deploy
+
+Link production:
+
+```text
+https://atelier-finance-main-f3z7c63i4-pttuan24s-projects.vercel.app
+
+Link deployment đã kiểm thử:
+```text
+https://atelier-finance-main-f3z7c63i4-pttuan24s-projects.vercel.app
+---
+
+| API | Kết quả |
+|---|---|
+| GET /api/stocks | Đạt |
+| GET /api/stocks/VCB | Đạt |
+| GET /api/stocks/VCB/prices | Đạt |
+| GET /api/stocks/VCB/financials | Đạt |
+| GET /api/stocks/VCB/ratios | Đạt |
+| GET /api/stocks/VCB/valuation | Đạt |
+| GET /api/stocks/VCB/risk | Đạt |
